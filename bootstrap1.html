@@ -12,7 +12,7 @@
     <h2>Hello Bootstrap!</h2>
     <h3>Hello Bootstrap!</h3>
     <button class="btn btn-success">Hello</button>
-    <table class="table table-bordered table-primary" >
+    <table class="table table-bordered w-75"  >
         <tr>
             <th>ID</th>
             <th>NAME</th>
@@ -39,12 +39,37 @@
             <td>44</td>
         </tr>                        
     </table>    
-
+    <div class="spinner-grow text-muted"></div>
+    <div class="spinner-grow text-primary"></div>
+    <div class="spinner-grow text-success"></div>
+    <div class="spinner-grow text-info"></div>
+    <div class="spinner-grow text-warning"></div>
+    <div class="spinner-grow text-danger"></div>
+    <div class="spinner-grow text-secondary"></div>
+    <div class="spinner-grow text-dark"></div>
+    <div class="spinner-grow text-light"></div>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="1.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="1.html">1</a></li>
+        <li class="page-item  active"><a class="page-link" href="2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="3.html">Next</a></li>
+      </ul>
     <script>
         // 1. create a table with one of the suggested designs
         //      i.e. strip with random data
         // 2. create a button with your color choise
         // 3. show an image with rounded thumbnail
+
+        // create 3 pages
+        // page 1.html -- <h1>Page 1</h1>
+        // previous -- disabled, 1 -- active , 2 , 3, next
+        // page 2.html -- <h1>Page 2</h1>
+        // previous -- 1, 1 , 2 -- active, 3, next
+        // page 3.html -- <h1>Page 3</h1>
+        // previous -- 2, 1 , 2  3 -- active, next -- disabled
+        // Pagination for each page
+
     </script>
         
 </body>
